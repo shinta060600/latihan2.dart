@@ -1,0 +1,2 @@
+# latihan2.dart
+void main(){   var data=[];   var artis = ["Andre","Nunung","Sule","Aziz","Parto"];   artis.insert(1,"Shinta lestari br s.maha");   artis.remove("Nunung");     // artis.forEach((z){ //data.add("Selamat Datang Kami Ucapkan Kepada " + z.toString()); //});      data=artis.map((z)=>"Selamat Datang Kami Ucapkan Kepada " + z.toString()).toList();        data.forEach((x){   print(x);   });   }
